@@ -1,0 +1,60 @@
+﻿Build started 6/9/2017 4:40:00 PM.
+     1>Project "C:\Users\Microscope\Documents\Micromanager Development\1.4.22\TestDeviceAdapters\OrientalMotorFocus\OrientalMotorFocus.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "x64\Debug\OrientalMotorFocus.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "x64\Debug\OrientalMotorFocus.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\CL.exe /c /I"C:\Users\Microscope\Documents\Micromanager Development\1.4.22\TestDeviceAdapters\OrientalMotorFocus\\..\..\..\3rdpartypublic\boost-versions\boost_1_55_0" /I"C:\Users\Microscope\Documents\Micromanager Development\3rdparty\OrientalMotorFocus\Windows Driver Libraries\CDM v2.12.18 WHQL Certified_64 bit\amd64" /Zi /nologo /W1 /WX- /Od /D WIN32 /D _DEBUG /D _WINDOWS /D _USRDLL /D ORIENTALMOTORFOCUS_EXPORTS /D MODULE_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vcWindows7.1SDK.pdb" /Gd /TP /errorReport:prompt AlternativeUtils.cpp ControllerStatusMonitorThread.cpp Extraneous.cpp OrientalControllerTemplate.cpp OrientalCRK525MAKD.cpp OrientalCRK525MAKDRegisterConstants.cpp OrientalFocusKnobs.cpp OrientalMotorFocus.cpp OrientalMotorHub.cpp
+         OrientalMotorHub.cpp
+         OrientalMotorFocus.cpp
+         OrientalFocusKnobs.cpp
+         OrientalCRK525MAKDRegisterConstants.cpp
+         OrientalCRK525MAKD.cpp
+         OrientalControllerTemplate.cpp
+         Extraneous.cpp
+         ControllerStatusMonitorThread.cpp
+         AlternativeUtils.cpp
+         Generating Code...
+       ManifestResourceCompile:
+         C:\Program Files\Microsoft SDKs\Windows\v7.1\bin\rc.exe /nologo /fo"x64\Debug\mmgr_dal_OrientalMotorFocus.dll.embed.manifest.res" x64\Debug\mmgr_dal_OrientalMotorFocus_manifest.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Microscope\Documents\Micromanager Development\1.4.22\build\Debug\x64\mmgr_dal_OrientalMotorFocus.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Microscope\Documents\Micromanager Development\3rdparty\OrientalMotorFocus\Windows Driver Libraries\CDM v2.12.18 WHQL Certified_64 bit\amd64" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ftd2xx.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\mmgr_dal_OrientalMotorFocus.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Microscope\Documents\Micromanager Development\1.4.22\build\Debug\x64\mmgr_dal_OrientalMotorFocus.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Microscope\Documents\Micromanager Development\1.4.22\build\Debug\x64\mmgr_dal_OrientalMotorFocus.lib" /MACHINE:X64 /DLL x64\Debug\mmgr_dal_OrientalMotorFocus.dll.embed.manifest.res
+         x64\Debug\AlternativeUtils.obj
+         x64\Debug\ControllerStatusMonitorThread.obj
+         x64\Debug\Extraneous.obj
+         x64\Debug\OrientalControllerTemplate.obj
+         x64\Debug\OrientalCRK525MAKD.obj
+         x64\Debug\OrientalCRK525MAKDRegisterConstants.obj
+         x64\Debug\OrientalFocusKnobs.obj
+         x64\Debug\OrientalMotorFocus.obj
+         x64\Debug\OrientalMotorHub.obj
+         "C:\Users\Microscope\Documents\Micromanager Development\1.4.22\build\Debug\x64\MMDevice-SharedRuntime.lib"
+            Creating library C:\Users\Microscope\Documents\Micromanager Development\1.4.22\build\Debug\x64\mmgr_dal_OrientalMotorFocus.lib and object C:\Users\Microscope\Documents\Micromanager Development\1.4.22\build\Debug\x64\mmgr_dal_OrientalMotorFocus.exp
+         OrientalMotorFocus.vcxproj -> C:\Users\Microscope\Documents\Micromanager Development\1.4.22\build\Debug\x64\mmgr_dal_OrientalMotorFocus.dll
+       Manifest:
+         Deleting file "x64\Debug\mmgr_dal_OrientalMotorFocus.dll.embed.manifest".
+         C:\Program Files\Microsoft SDKs\Windows\v7.1\bin\mt.exe /nologo /verbose /out:"x64\Debug\mmgr_dal_OrientalMotorFocus.dll.embed.manifest" /manifest x64\Debug\mmgr_dal_OrientalMotorFocus.dll.intermediate.manifest
+         C:\Program Files\Microsoft SDKs\Windows\v7.1\bin\rc.exe /nologo /fo"x64\Debug\mmgr_dal_OrientalMotorFocus.dll.embed.manifest.res" x64\Debug\mmgr_dal_OrientalMotorFocus_manifest.rc 
+       LinkEmbedManifest:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Microscope\Documents\Micromanager Development\1.4.22\build\Debug\x64\mmgr_dal_OrientalMotorFocus.dll" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\Microscope\Documents\Micromanager Development\3rdparty\OrientalMotorFocus\Windows Driver Libraries\CDM v2.12.18 WHQL Certified_64 bit\amd64" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ftd2xx.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"x64\Debug\mmgr_dal_OrientalMotorFocus.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Microscope\Documents\Micromanager Development\1.4.22\build\Debug\x64\mmgr_dal_OrientalMotorFocus.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Microscope\Documents\Micromanager Development\1.4.22\build\Debug\x64\mmgr_dal_OrientalMotorFocus.lib" /MACHINE:X64 /DLL x64\Debug\mmgr_dal_OrientalMotorFocus.dll.embed.manifest.res
+         x64\Debug\AlternativeUtils.obj
+         x64\Debug\ControllerStatusMonitorThread.obj
+         x64\Debug\Extraneous.obj
+         x64\Debug\OrientalControllerTemplate.obj
+         x64\Debug\OrientalCRK525MAKD.obj
+         x64\Debug\OrientalCRK525MAKDRegisterConstants.obj
+         x64\Debug\OrientalFocusKnobs.obj
+         x64\Debug\OrientalMotorFocus.obj
+         x64\Debug\OrientalMotorHub.obj
+         "C:\Users\Microscope\Documents\Micromanager Development\1.4.22\build\Debug\x64\MMDevice-SharedRuntime.lib"
+            Creating library C:\Users\Microscope\Documents\Micromanager Development\1.4.22\build\Debug\x64\mmgr_dal_OrientalMotorFocus.lib and object C:\Users\Microscope\Documents\Micromanager Development\1.4.22\build\Debug\x64\mmgr_dal_OrientalMotorFocus.exp
+         OrientalMotorFocus.vcxproj -> C:\Users\Microscope\Documents\Micromanager Development\1.4.22\build\Debug\x64\mmgr_dal_OrientalMotorFocus.dll
+       FinalizeBuildStatus:
+         Deleting file "x64\Debug\OrientalMotorFocus.unsuccessfulbuild".
+         Touching "x64\Debug\OrientalMotorFocus.lastbuildstate".
+     1>Done Building Project "C:\Users\Microscope\Documents\Micromanager Development\1.4.22\TestDeviceAdapters\OrientalMotorFocus\OrientalMotorFocus.vcxproj" (rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:06.72

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros">
+    <MM_SRCROOT>$(MSBuildThisFileDirectory)\..\..</MM_SRCROOT>
+    <MM_3RDPARTYPUBLIC>$(MM_SRCROOT)\..\3rdpartypublic</MM_3RDPARTYPUBLIC>
+    <MM_BOOST_INCLUDEDIR>$(MM_3RDPARTYPUBLIC)\boost-versions\boost_1_55_0</MM_BOOST_INCLUDEDIR>
+    <MM_BOOST_LIBDIR>$(MM_3RDPARTYPUBLIC)\boost-versions\boost_1_55_0-lib-$(Platform)</MM_BOOST_LIBDIR>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemDefinitionGroup />
+  <ItemGroup>
+    <BuildMacro Include="MM_SRCROOT">
+      <Value>$(MM_SRCROOT)</Value>
+    </BuildMacro>
+    <BuildMacro Include="MM_3RDPARTYPUBLIC">
+      <Value>$(MM_3RDPARTYPUBLIC)</Value>
+    </BuildMacro>
+    <BuildMacro Include="MM_BOOST_INCLUDEDIR">
+      <Value>$(MM_BOOST_INCLUDEDIR)</Value>
+    </BuildMacro>
+    <BuildMacro Include="MM_BOOST_LIBDIR">
+      <Value>$(MM_BOOST_LIBDIR)</Value>
+    </BuildMacro>
+  </ItemGroup>
+</Project>
